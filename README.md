@@ -1,24 +1,47 @@
-# README
+# Task Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Representation of a task manager for organizing activities, since it allows ordering the tasks of the day, ensuring that they are carried out within the established deadline.
 
-Things you may want to cover:
+## Technology
 
-* Ruby version
+Here are the technologies used in this project.
 
-* System dependencies
+* Ruby version  3.0.4
+* Rails version 6.1.6
 
-* Configuration
+## Services Used
 
-* Database creation
+* Github
 
-* Database initialization
+## Getting started
 
-* How to run the test suite
+* To clone the project
+>     $ git@github.com:rodrigocezzar/-task_management.git
+* To install gems:
+>     $ bundle install
+* To create the bank and do as migrations:
+>     $ rails db:create db:migrate
+* To run the project:
+>     $ rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+## How to use
 
-* Deployment instructions
+### Logged
 
-* ...
+* Create, Edit and delete Your Tasks
+* Export CSV all tasks
+
+## Links
+
+  - Repository: https://github.com/rodrigocezzar/-task_management
+    - In case of sensitive bugs like security vulnerabilities, please contact
+      rodrigocezzar85@gmail.com directly instead of using issue tracker. We value your effort
+      to improve the security and privacy of this project!
+
+## Versioning
+
+1.0
+
+## Authors
+
+* **Rodrigo Cezar**: @rodrigocezzar (https://github.com/rodrigocezzar)
